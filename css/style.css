@@ -279,12 +279,16 @@ h5{
     padding-top: 25px;
     margin: 0px 0px 0px;
 }
+
+/* WIREFRAMES SECTION */
+
 .wireframes-section{
     padding: 55px 300px;
 }
 .wireframepic{
     padding-top: 25px;
 }
+/* PROTOTYPE SECTION */
 .final-prototype{
     padding: 105px 300px;
 }
