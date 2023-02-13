@@ -1,0 +1,305 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;   
+    background-color: #FFE7CF;
+   
+}
+
+/* NAVIGATION SECTION */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: #2E1802;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.Logo{
+    float: left;
+    padding: 10px 0;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 14px;
+}
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #B1B1B1;
+    cursor: pointer;
+
+}
+
+/* HERO SECTION */
+.heroimg{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 50px 310px;
+   
+
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    width: 386.5px;
+
+}
+.stripes{
+    width: 200px;
+    
+}
+h1{
+    font-family: 'Lilita One';
+    font-size: 64px;
+    color: #593511;
+    margin-top: 40px;
+}
+.hero-txt-1{
+    font-family: 'Nunito Sans';
+    font-size: 32px;
+    margin: 0;
+    
+}
+h2{
+    font-family: 'Lilita One';
+    font-size: 40px;
+    color: #593511;
+    margin-top: 40px;
+}
+.hero-txt-2{
+    font-family: 'Nunito Sans';
+    font-size: 32px;
+    margin: 0;
+    width: 352px;
+}
+.tools{
+    width: 250px;
+    margin-top: 40px;
+}
+.hero-right{
+    margin: 0;
+    
+}
+
+/* OVERVIEW & RESPONSIBILITIES */
+
+.overview{
+    padding: 80px 300px;
+    
+}
+h3{
+    font-family: 'Lilita One';
+    font-family: 36px;
+    color: #593511;
+    margin: 0;
+}
+.overview-txt{
+    width: 1220px;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    margin: 25px 0px 0px;
+}
+.Responsibility{
+    padding: 0px 300px;
+}
+.tags{
+    margin-top: 25px;
+}
+/* DESIGN PROCESS */
+.design-process{
+    padding: 80px 300px;
+}
+.design-process-row{
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+}
+h4{
+    font-family: 'Lilita One';
+    font-size: 32px;
+    color: #593511;
+    margin: 0;
+}
+.empathize-column{
+    display: flex;
+    flex-direction: column;
+   
+}
+.empathize-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    width: 220px;
+}
+.define-column{
+    display: flex;
+    flex-direction: column;   
+}
+.define-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    width: 220px;
+}
+.ideate-column{
+    display: flex;
+    flex-direction: column;  
+}
+.ideate-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    width: 220px;
+}
+.design-column{
+    display: flex;
+    flex-direction: column; 
+}
+.design-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    width: 220px;
+}
+.test-column{
+    display: flex;
+    flex-direction: column; 
+}
+.test-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    width: 220px;
+}
+
+/* RESEARCH SECTION */
+
+.research{
+    padding: 55px 300px;
+}
+.surveys-interviews h3{
+    padding-top: 25px;
+}
+.surveys-interviews-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    margin: 25px 0px 0px;
+    width: 1220px;
+}
+.interview-questions{
+    margin: 0;
+    margin-left: 55px;
+    margin-top: 25px;
+    
+}
+.insights-txt1{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    margin: 25px 0px 0px;
+    width: 1220px;
+}
+
+.insights-txt-list{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    margin: 0px 0px 0px;
+}
+.insights-txt2{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    margin: 0px 0px 0px;
+    width: 1220px;
+}
+.user-persona {
+    padding-top: 80px
+}
+.userpersona{
+    padding-top: 25px;
+}
+.user-scenario {
+    padding-top: 80px
+}
+.user-scenario-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    margin: 25px 0px 0px;
+    width: 1220px;
+}
+.userscenario{
+    padding-top: 25px;
+}
+.competitor-analysis{
+    padding-top: 80px
+}
+.competitor-analysis-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    margin: 25px 0px 0px;
+    width: 1220px;
+}
+.competitoranalysis{
+    padding-top: 25px;
+}
+/* PROBLEM STATEMENT */
+.problem-statement{
+    padding: 105px 300px;
+}
+h5{
+    font-family: 'Lilita One';
+    font-size: 32px;
+    color: #593511;
+    margin: 0;
+}
+.problem-statement-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    width: 1220px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0px 0px 0px;
+}
+.solution-statement-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    width: 1220px;
+    padding-top: 25px;
+    margin: 0px 0px 0px;
+}
+.wireframes-section{
+    padding: 55px 300px;
+}
+.wireframepic{
+    padding-top: 25px;
+}
+.final-prototype{
+    padding: 105px 300px;
+}
+.prototype-txt{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    width: 1220px;
+    padding-top: 25px;
+    margin: 0px 0px 0px;
+}
+.prototypegif{
+    padding-top: 25px;
+}
+.thankyou{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
